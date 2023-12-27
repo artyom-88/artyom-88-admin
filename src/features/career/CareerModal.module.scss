@@ -1,0 +1,8 @@
+@import '@/assets/colors';
+@import '@/assets/variables';
+
+.form {
+  &Item {
+    padding: $padding-sm;
+  }
+}

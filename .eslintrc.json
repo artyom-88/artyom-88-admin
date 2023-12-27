@@ -1,0 +1,53 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "next",
+    "plugin:import/typescript",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "plugin:@tanstack/eslint-plugin-query/recommended"
+  ],
+  "plugins": [
+    "@typescript-eslint/eslint-plugin",
+    "react",
+    "react-hooks",
+    "import",
+    "prettier",
+    "@tanstack/query"
+  ],
+  "rules": {
+    "@tanstack/query/exhaustive-deps": "error",
+    "@tanstack/query/stable-query-client": "error",
+    "@typescript-eslint/consistent-type-imports": "warn",
+    "import/order": [
+      "error",
+      {
+        "alphabetize": { "order": "asc", "caseInsensitive": true },
+        "groups": [["builtin", "external"], ["internal", "unknown", "object"], ["parent"], ["sibling", "index"]],
+        "newlines-between": "always",
+        "pathGroups": [
+          {
+            "pattern": "react*",
+            "group": "builtin",
+            "position": "before"
+          }
+        ],
+        "pathGroupsExcludedImportTypes": ["react"]
+      }
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "arrowParens": "always",
+        "endOfLine": "lf",
+        "jsxSingleQuote": true,
+        "printWidth": 120,
+        "singleQuote": true,
+        "trailingComma": "es5"
+      }
+    ]
+  },
+  "settings": {
+    "import/extensions": [".ts", ".tsx"]
+  }
+}

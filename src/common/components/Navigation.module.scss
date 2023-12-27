@@ -1,0 +1,9 @@
+@import '@/assets/variables';
+
+.nav {
+  height: $headerHeight;
+
+  &Link {
+    padding: $padding-sm;
+  }
+}
