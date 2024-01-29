@@ -47,7 +47,7 @@
     "zustand": "4.4.7"
   },
   "devDependencies": {
-    "@tanstack/eslint-plugin-query": "5.14.6",
+    "@tanstack/eslint-plugin-query": "5.17.22",
     "@types/node": "18.19.3",
     "@types/react": "18.2.46",
     "@types/react-datepicker": "4.19.5",
