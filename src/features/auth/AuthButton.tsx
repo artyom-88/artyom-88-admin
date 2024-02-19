@@ -9,17 +9,21 @@ import { LOGIN_PAGE_URL } from '@/common/common-constants';
 import { useAuthToken } from '@/features/auth/hooks/use-auth-token';
 import { useAuthorized } from '@/features/auth/hooks/use-authorized';
 
-const LoginButton = (): JSX.Element => {
+const AuthButton = (): JSX.Element => {
   const router = useRouter();
   const { setToken } = useAuthToken();
   const isAuthorized = useAuthorized();
   const handleLoginClick = useCallback(() => router.push(LOGIN_PAGE_URL), [router]);
   const handleLogoutClick = useCallback(() => setToken(''), [setToken]);
   return isAuthorized ? (
-    <Button onClick={handleLogoutClick}>Logout</Button>
+    <Button onClick={handleLogoutClick} size='sm'>
+      Logout
+    </Button>
   ) : (
-    <Button onClick={handleLoginClick}>Login</Button>
+    <Button onClick={handleLoginClick} size='sm'>
+      Login
+    </Button>
   );
 };
 
-export default LoginButton;
+export default AuthButton;

@@ -12,7 +12,7 @@ import styles from './CareerListItem.module.scss';
 const CareerListItem = ({ item }: CareerListItemProps): JSX.Element => {
   const { _id: itemId, endDate, description, post, site, startDate, title, tools } = item;
   return (
-    <div className={`flex justify-between ${styles.container}`} key={itemId}>
+    <div className={`flex items-baseline justify-between ${styles.container}`} key={itemId}>
       <div>{title}</div>
       <div>
         <span>{dayjs(startDate).format('MMMM DD, YYYY')}</span>
@@ -23,7 +23,7 @@ const CareerListItem = ({ item }: CareerListItemProps): JSX.Element => {
       <div>{description}</div>
       <div>{tools}</div>
       <Link href={`${CAREER_PAGE_URL}/${itemId}`}>
-        <Button>Open</Button>
+        <Button size='sm'>Open</Button>
       </Link>
     </div>
   );

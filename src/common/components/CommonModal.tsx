@@ -12,7 +12,7 @@ const CommonModal = ({
   isLoading,
   isOpen,
 }: PropsWithChildren<ModalProps>): JSX.Element => (
-  <Modal isOpen={isOpen} onClose={handleClose}>
+  <Modal isOpen={isOpen} onClose={handleClose} size='5xl'>
     <ModalContent>
       {header ? <ModalHeader>{header}</ModalHeader> : null}
       {isLoading ? <Spinner /> : <ModalBody>{children}</ModalBody>}

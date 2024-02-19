@@ -52,7 +52,9 @@ const AuthForm = (): JSX.Element => {
         <Input placeholder='Password' type='password' onChange={handlePasswordChange} />
       </div>
       <div className={styles.formItem}>
-        <Button onClick={handleLogin}>Login</Button>
+        <Button onClick={handleLogin} size='sm'>
+          Login
+        </Button>
       </div>
       {error ? <div className={`${styles.formItem} ${styles.error}`}>{error}</div> : null}
     </div>
