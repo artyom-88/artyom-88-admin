@@ -40,8 +40,8 @@ dependencies:
     specifier: 18.2.0
     version: 18.2.0
   react-datepicker:
-    specifier: 6.1.0
-    version: 6.1.0(react-dom@18.2.0)(react@18.2.0)
+    specifier: 6.2.0
+    version: 6.2.0(react-dom@18.2.0)(react@18.2.0)
   react-dom:
     specifier: 18.2.0
     version: 18.2.0(react@18.2.0)
@@ -63,8 +63,8 @@ devDependencies:
     specifier: 18.2.57
     version: 18.2.57
   '@types/react-datepicker':
-    specifier: 6.0.1
-    version: 6.0.1(react-dom@18.2.0)(react@18.2.0)
+    specifier: 6.0.3
+    version: 6.0.3(react-dom@18.2.0)(react@18.2.0)
   '@types/react-dom':
     specifier: 18.2.19
     version: 18.2.19
@@ -2714,8 +2714,8 @@ packages:
   /@types/prop-types@15.7.11:
     resolution: {integrity: sha512-ga8y9v9uyeiLdpKddhxYQkxNDrfvuPrlFb0N1qnZZByvcElJaXthF1UhvCh9TLWJBEHeNtdnbysW7Y6Uq8CVng==}
 
-  /@types/react-datepicker@6.0.1(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-oAavACLXz+Vm6kO1XZe1/LQJClOO32UUv4xva9G16KQJ2hNROtXyeGzmRg6mktHrQ+YGLnnNlN6S/XykQE2HMA==}
+  /@types/react-datepicker@6.0.3(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-3x5flRBrEgC3fFrBryFIrxbLf8bOkte/GNryPjfnXu3my4/XZeaML/01U+XArMCLfk2d3pei6ccNIgTlpe4c5g==}
     dependencies:
       '@floating-ui/react': 0.26.9(react-dom@18.2.0)(react@18.2.0)
       '@types/react': 18.2.57
@@ -5216,8 +5216,8 @@ packages:
   /queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
-  /react-datepicker@6.1.0(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-8uz+hAOpvHqZGvD4Ky1hJ0/tLI4S9B0Gu9LV7LtLxRKXODs/xrxEay0aMVp7AW9iizTeImZh/6aA00fFaRZpJw==}
+  /react-datepicker@6.2.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-GzEOiE6yLfp9P6XNkOhXuYtZHzoAx3tirbi7/dj2WHlGM+NGE1lefceqGR0ZrYsYaqsNJhIJFTgwUpzVzA+mjw==}
     peerDependencies:
       react: 18.2.0
       react-dom: 18.2.0
