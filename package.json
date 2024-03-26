@@ -2,11 +2,11 @@
   "author": "Artem Ganev",
   "homepage": "https://artyom-88.github.io",
   "license": "GPL-3.0",
-  "name": "artemganev-admin",
+  "name": "artyom-88-admin",
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/artyom-88/artemganev-admin.git"
+    "url": "git+https://github.com/artyom-88/artyom-88-admin.git"
   },
   "engines": {
     "node": "20.x",
