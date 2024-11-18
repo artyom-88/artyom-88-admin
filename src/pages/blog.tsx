@@ -13,7 +13,9 @@ const Blogs = (): JSX.Element => {
     <>
       <div className='flex justify-between'>
         <h1>Blog</h1>
-        <Button onClick={handleRefresh}>Refresh</Button>
+        <Button onClick={handleRefresh} size='sm'>
+          Refresh
+        </Button>
       </div>
       <BlogList />
     </>

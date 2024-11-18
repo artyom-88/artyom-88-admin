@@ -22,11 +22,15 @@ const Careers = (): JSX.Element => {
         <div className='flex'>
           {isAuthorized ? (
             <>
-              <Button onClick={handleAdd}>Add</Button>
+              <Button onClick={handleAdd} size='sm'>
+                Add
+              </Button>
               <span>&nbsp;</span>
             </>
           ) : null}
-          <Button onClick={handleRefresh}>Refresh</Button>
+          <Button onClick={handleRefresh} size='sm'>
+            Refresh
+          </Button>
         </div>
       </div>
       <CareerList />
